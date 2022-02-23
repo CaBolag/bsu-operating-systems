@@ -1,28 +1,29 @@
 #include "pch.h"
 #include "Number.h"
 
-DoubleNumber DoubleNumber::operator+(const DoubleNumber& number) {
-	return DoubleNumber(this->value_ + number.value_);
-}
 
-DoubleNumber DoubleNumber::operator-(const DoubleNumber& number) {
-	return DoubleNumber(this->value_ - number.value_);
-}
-DoubleNumber DoubleNumber::operator/(const DoubleNumber& number) {
-	return DoubleNumber(this->value_ / number.value_);
-}
-DoubleNumber DoubleNumber::operator*(const DoubleNumber& number) {
-	return DoubleNumber(this->value_ * number.value_);
-}
+Math::DoubleNumber Math::DoubleNumber::operator+(const DoubleNumber& number) {
+		return DoubleNumber(this->value_ + number.value_);
+	}
 
-void DoubleNumber::SetValue(double number) {
+Math::DoubleNumber Math::DoubleNumber::operator-(const DoubleNumber& number) {
+		return DoubleNumber(this->value_ - number.value_);
+	}
+Math::DoubleNumber Math::DoubleNumber::operator/(const DoubleNumber& number) {
+		return DoubleNumber(this->value_ / number.value_);
+	}
+Math::DoubleNumber Math::DoubleNumber::operator*(const DoubleNumber& number) {
+		return DoubleNumber(this->value_ * number.value_);
+	}
+
+void Math::DoubleNumber::SetValue(double number) {
 	this->value_ = number;
 }
 
-double DoubleNumber::GetValue() {
+double Math::DoubleNumber::GetValue() {
 	return this->value_;
 }
 
-DoubleNumber CreateNumber(double value) {
-	return DoubleNumber(value);
+Math::DoubleNumber Math::CreateNumber(double value) {
+	return Math::DoubleNumber(value);
 }

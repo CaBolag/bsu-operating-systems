@@ -1,2 +1,0 @@
-D:\study\2\bsu-operating-systems\library-windows\Number\Debug\Number.pdb
-D:\study\2\bsu-operating-systems\library-windows\Number\Number\Debug\Number.pdb
