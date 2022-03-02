@@ -1,0 +1,3 @@
+/home/victor/study/bsu/os/bsu-operating-systems/library-linux/ClientApp/build/CMakeFiles/rebuild_cache.dir
+/home/victor/study/bsu/os/bsu-operating-systems/library-linux/ClientApp/build/CMakeFiles/edit_cache.dir
+/home/victor/study/bsu/os/bsu-operating-systems/library-linux/ClientApp/build/CMakeFiles/ClientApp.dir

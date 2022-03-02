@@ -1,0 +1,3 @@
+/home/victor/study/bsu/os/bsu-operating-systems/library-linux/Number/build/CMakeFiles/rebuild_cache.dir
+/home/victor/study/bsu/os/bsu-operating-systems/library-linux/Number/build/CMakeFiles/edit_cache.dir
+/home/victor/study/bsu/os/bsu-operating-systems/library-linux/Number/build/CMakeFiles/Number.dir
