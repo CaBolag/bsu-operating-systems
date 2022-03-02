@@ -360,3 +360,14 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+#Clion and cmake files
+.idea
+.ninja
+.ninja_deps
+.ninja_log
+.cmake
+Testing
+CMakeCache.txt
+CMakeLists.txt
+CMakeFiles
