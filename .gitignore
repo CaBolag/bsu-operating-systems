@@ -371,5 +371,4 @@ FodyWeavers.xsd
 *.cmake
 Testing
 CMakeCache.txt
-CMakeLists.txt
 CMakeFiles
