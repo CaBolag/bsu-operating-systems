@@ -31,16 +31,6 @@ template <class T>
 BufferedChannel<T>::BufferedChannel(int size):buffer_size_(size),is_open_(true) {}
 
 template <class T>
-BufferedChannel<T>& BufferedChannel<T>::operator=(BufferedChannel<T>&& other)
-{
-  if (this != &other)
-  {
-    values_ = other.values_;
-  }
-  return *this;
-}
-
-template <class T>
 void BufferedChannel<T>::Send(T value)
 {
   if (!is_open_) {
