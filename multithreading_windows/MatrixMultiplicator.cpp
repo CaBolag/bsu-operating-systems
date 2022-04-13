@@ -13,7 +13,7 @@ MatrixMultiplicator::~MatrixMultiplicator()
 MatrixMultiplicator::MultiplyBlocksArguments::MultiplyBlocksArguments
     (HANDLE lock, Matrix& result_matrix, const Matrix& matrix1, const Matrix& matrix2,
      int rows_amount_1, int columns_amount_1, int rows_amount_2, int columns_amount_2, int block_size):
-    lock_(lock), result_matrix_(result_matrix_), matrix1_(matrix1), matrix2_(matrix2),
+    lock_(lock), result_matrix_(result_matrix), matrix1_(matrix1), matrix2_(matrix2),
     rows_amount1_(rows_amount_1), columns_amount1_(columns_amount_1),
     rows_amount2_(rows_amount_2), columns_amount2_(columns_amount_2),
     block_size_(block_size){}
