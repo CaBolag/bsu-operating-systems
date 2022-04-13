@@ -11,6 +11,7 @@
 class Matrix
 {
  public:
+
   Matrix(int m, int n);
   double GetElement(int i, int j) const;
   void SetElement(double element,int i,int j);

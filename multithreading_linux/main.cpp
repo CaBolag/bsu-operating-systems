@@ -4,11 +4,13 @@
 int main()
 {
   int n = 500;
+  //Matrix matrix1=Matrix(n,n);
   Matrix matrix1(n,n);
   matrix1.Generate(500);
   //std::cout<<matrix1<<"\n\n";
   Matrix matrix2(n,n);
   matrix2.Generate(500);
+
   //std::cout<<matrix2<<"\n\n";
 
   int start = clock();
